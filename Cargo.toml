@@ -21,7 +21,7 @@ env_logger = { version = "0.9.1", optional = true }
 cffi = { version = "0.1.7", optional = true, features = ["url"] }
 
 # The rest
-pahkat-types = { path = "../pahkat-types" }
+pahkat-types = { git = "https://github.com/pahkat/pahkat-types" }
 fbs = "0.6.0"
 fbs-build = "0.1.0"
 
